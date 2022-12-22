@@ -15,6 +15,11 @@ function App() {
       <div className='box m-4'>
 
       <h2 className="font-serif text-4xl font-semibold"> Welcome to Aibacus </h2>
+
+      <div className='sm:hidden md:hidden lg:hidden xl:hidden max-w-xs mx-auto m-4' >
+      <img src={logo} className='rounded-xl'></img>
+      </div>
+
       <p className='mt-6 font-serif text-l'>A place where you can:</p> 
       <ul className='font-serif text-l p-2 list-disc'>
         <li>help your child learn faster and more effectively</li>
@@ -29,7 +34,7 @@ function App() {
       </div>
 
      
-      <div className='hidden sm:block md:block lg:block xl:block ml-6 max-w-md' >
+      <div className='hidden sm:block md:block lg:block xl:block mr-6 max-w-md' >
       <img src={logo} className='rounded-xl'></img>
       </div>
      
