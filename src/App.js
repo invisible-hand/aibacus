@@ -29,12 +29,13 @@ function App() {
       </div>
 
      
+      <div className='hidden sm:block md:block lg:block xl:block ml-6 max-w-md' >
+      <img src={logo} className='rounded-xl'></img>
+      </div>
+     
 
-      <div className='ml-6 flex max-w-xl ' >
-      <img src={logo} className='rounded-xl object-contain'></img>
       </div>
 
-      </div>
     </div>
   );
 }
