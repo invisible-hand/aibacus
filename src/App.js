@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <div className="container mx-auto flex m-8">
+      <div className="container mx-auto flex m-8 place-content-center">
 
       <div className='box m-4'>
 
