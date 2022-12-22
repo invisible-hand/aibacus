@@ -30,8 +30,8 @@ function App() {
 
      
 
-      <div className='ml-6 flex' >
-      <img src={logo} width="400" className='rounded-xl'></img>
+      <div className='ml-6 flex max-w-xl ' >
+      <img src={logo} className='rounded-xl object-contain'></img>
       </div>
 
       </div>
